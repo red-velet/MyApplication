@@ -16,4 +16,89 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的歌曲"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/btn2TextContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文本内容设置"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2TextSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toTSBtn"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2TextColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toTCBtn"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2ViewBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toVBorder"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2LinearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toLinearLayout"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2RelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toRelativeLayout"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2GridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toGridLayout"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2ScrollViewLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toScrollViewLayout"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toButton"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn2Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图像显示"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

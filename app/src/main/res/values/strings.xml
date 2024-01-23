@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="song">My Song</string>
+    <string name="tc_m2">xml引用</string>
+    <string name="tc_m4">代码引用</string>
+    <string name="toTSBtn">文字大小设置</string>
+    <string name="tsPx">我是20px</string>
+    <string name="tsDp">我是20dp</string>
+    <string name="tsSp">我是20sp</string>
+    <string name="tcRed">我是Red</string>
+    <string name="tcBlue">我是Blue</string>
+    <string name="toTCBtn">文字颜色设置</string>
+    <string name="toVBorder">宽高设置</string>
+    <string name="toLinearLayout">线性布局</string>
+    <string name="toRelativeLayout">相对布局</string>
+    <string name="toGridLayout">网格布局</string>
+    <string name="toScrollViewLayout">滚动视图布局</string>
+    <string name="toButton">按钮组件</string>
 </resources>
